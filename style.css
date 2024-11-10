@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    min-height: 100vh;
+    }
+    .nav-pane {
+    width: 200px;
+    background-color: rgb(255, 192, 203);
+    color: white;
+    padding: 20px;
+    }
+    .nav-pane h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    color: #fff;
+    }
+    .nav-pane ul {
+    list-style-type: none;
+    }
+    .nav-pane li {
+    margin: 10px 0;
+    }
+    .nav-pane a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+    display: block;
+    padding: 8px;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+    }
+    .nav-pane a:hover {
+    background-color: #575757;
+    }
+    .content {
+    flex: 1;
+    padding: 20px;
+    }
+    .header1 {
+    text-align: center;
+    color: pink;
+    font-size: 50px;
+    }
+    .h1 {
+        color: rgb(247, 65, 143);
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+    }
+    .h2 {
+        color: rgb(247, 65, 143);
+        margin-top: 50px;
+    }
+    .cream {
+        style="width: 100px; height: 100px;"
+    }
+    .mamamo {
+        margin: 5px;
+        padding: 20px;
+        color: rgb(252, 129, 158);
+    }
+.rate {
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+
+
+}
+.momo {
+    color: rgb(255, 127, 148);
+    margin: 15px;
+}
+.submit {
+    background-color: #ffacda; 
+    padding: 5px 10px;
+    border: none; 
+    border-radius: 5px; 
+    font-size: 14px; 
+    cursor: pointer; 
+    height: 35px;
+    width: 40px;
+}
+.link {
+    color: rgb(252, 129, 158);
+    text-decoration: none;
+}
+.mar {
+    color: rgb(255, 0, 140);
+    margin: auto;
+}
+.mani {
+    color: rgb(255, 0, 140);
+    position: absolute;
+    left: 700px;
+    bottom: 290px;
+}
+.had {
+    color: rgb(252, 129, 158);
+}
+.huh {
+    color: rgb(255, 171, 185)
+}
+.nami {
+    color: rgb(255, 0, 140);
+    font-size: 40px;
+    font-family: Georgia;
+}
+.ans {
+    color: rgb(247, 65, 143);
+    font-size: 40px;
+    background-color: rgb(255, 255, 255); 
+    border: none;  
+    margin: 50px;
+    text-decoration: none;
+}
+.po {
+    color: rgb(247, 65, 143);
+    font-size: 50px;
+    height: 480px;
+    background-color: rgb(255, 243, 199);
+    border-radius: 15%;
+    margin-top: 15px;
+}
